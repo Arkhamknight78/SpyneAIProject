@@ -19,9 +19,9 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-gradient-to-r from-gray-700 to-blue-900 text-white p-4 flex justify-between items-center shadow-lg">
+    <header className="bg-gradient-to-r from-gray-700 to-blue-900 text-white p-4 flex justify-between items-center shadow-lg font-serif">
       <h1 className="text-2xl font-extrabold tracking-wide">
-        <Link to="/">Car Management</Link>
+        <Link to="/">Car Manager</Link>
       </h1>
       <nav className="flex space-x-4">
         {!isLoggedIn ? (

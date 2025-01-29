@@ -29,7 +29,7 @@ const UserCarsPage = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-gray-500 to-gray-600 text-white">
+    <div className="min-h-screen bg-gradient-to-r from-gray-500 to-gray-600 text-white font-serif">
       <Header isLoggedIn={true} />
       <div className="p-6 flex flex-col items-center">
         <h2 className="text-4xl font-extrabold drop-shadow-lg mb-6">My Products</h2>

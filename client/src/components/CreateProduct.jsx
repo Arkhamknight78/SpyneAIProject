@@ -34,7 +34,7 @@ const CreateProduct = () => {
   };
 
   return (
-    <form onSubmit={handleCreate} className="bg-white p-8 rounded-xl shadow-lg max-w-lg w-full">
+    <form onSubmit={handleCreate} className="bg-white p-8 rounded-xl shadow-lg max-w-lg w-full font-serif">
       <h2 className="text-3xl font-bold text-gray-900 mb-6">Create Product</h2>
 
       {/* Title */}

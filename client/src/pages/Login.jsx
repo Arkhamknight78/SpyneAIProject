@@ -23,12 +23,12 @@ const Login = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-gray-500 to-gray-600 text-white">
+    <div className="min-h-screen bg-gradient-to-r from-gray-500 to-gray-600 text-white font-serif">
       <Header /> {/* ✅ Now Header will always be visible */}
       <div className="flex items-center justify-center min-h-[80vh]">
         <form
           onSubmit={handleLogin}
-          className="bg-white text-gray-800 p-8 rounded-xl shadow-lg w-96"
+          className="bg-gray-400 text-gray-800 p-8 rounded-xl shadow-lg w-96"
         >
           <h2 className="text-3xl font-bold text-center mb-6">Login</h2>
           <div className="mb-4">

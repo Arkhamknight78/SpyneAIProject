@@ -24,7 +24,7 @@ const UserCars = ({ cars, fetchUserCars }) => {
   }
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 font-serif">
       {cars.length === 0 ? (
         <p>No cars found</p> // Display message if no cars are available
       ) : (

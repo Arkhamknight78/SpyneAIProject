@@ -21,7 +21,7 @@ const ProductListPage = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-gray-500 to-gray-600 text-white">
+    <div className="min-h-screen bg-gradient-to-r from-gray-500 to-gray-600 text-white font-serif">
       <Header isLoggedIn={true} />
       <div className="container mx-auto py-10 px-6">
         <h2 className="text-4xl font-extrabold text-center drop-shadow-lg">🚘 All Cars</h2>

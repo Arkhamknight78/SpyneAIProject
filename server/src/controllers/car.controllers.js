@@ -16,6 +16,7 @@ const createCar = asyncHandler(async (req, res) => {
     try {
         const owner = req.user._id;
         console.log("Owner ID: ", owner);  // Debugging line
+        console.log("tag: ", tags);  // Debugging line
         
         // Ensure that car images are present in req.files["carImage"]
         const files = req.files["carImage"];

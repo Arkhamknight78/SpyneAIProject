@@ -2,7 +2,7 @@ import React from "react";
 
 const ProductDetail = ({ car }) => {
   return (
-    <div className="bg-white text-gray-800 rounded-xl shadow-lg overflow-hidden max-w-3xl mx-auto p-6">
+    <div className="bg-white text-gray-800 rounded-xl shadow-lg overflow-hidden max-w-3xl mx-auto p-6 font-serif">
       <h2 className="text-3xl font-extrabold text-gray-900">{car.title}</h2>
 
       {/* Image Grid */}
@@ -18,7 +18,7 @@ const ProductDetail = ({ car }) => {
       </div>
 
       {/* Description */}
-      <p className="mt-6 text-gray-700 leading-relaxed">{car.description}</p>
+      <p className="mt-6 text-gray-700 leading-relaxed font-serif">{car.description}</p>
 
       {/* Tags */}
       <div className="mt-4">

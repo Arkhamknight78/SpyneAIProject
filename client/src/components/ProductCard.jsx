@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const ProductCard = ({ car }) => {
   return (
-    <div className="bg-white p-4 rounded shadow-md">
+    <div className="bg-gray-800 p-4 rounded shadow-md font-serif text-white ">
       <img
         src={car.images[0] || "https://via.placeholder.com/150"}
         alt={car.title}

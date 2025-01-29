@@ -21,16 +21,16 @@ const Register = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-gray-500 to-gray-600 text-white">
+    <div className="min-h-screen bg-gradient-to-r from-gray-500 to-gray-600 text-white font-serif">
       <Header /> {/* ✅ Now Header will always be visible */}
       <div className="flex items-center justify-center min-h-[80vh]">
         <form
           onSubmit={handleRegister}
-          className="bg-white text-gray-800 p-8 rounded-xl shadow-lg w-96"
+          className="bg-gray-400 text-gray-800 p-8 rounded-xl shadow-lg w-96"
         >
           <h2 className="text-3xl font-bold text-center mb-6">Register</h2>
           <div className="mb-4">
-            <label className="block text-gray-700 font-medium">Full Name</label>
+            <label className="block text-gray-700 font-medium border-gray-700">Full Name</label>
             <input
               type="text"
               value={fullName}
@@ -61,7 +61,7 @@ const Register = () => {
           </div>
           <button
             type="submit"
-            className="w-full bg-gray-700 text-white py-2 rounded-lg text-lg font-medium hover:bg-gray-800 transition duration-300"
+            className="w-full bg-blue-700 text-white py-2 rounded-lg text-lg font-medium hover:bg-blue-800 transition duration-300"
           >
             Register
           </button>

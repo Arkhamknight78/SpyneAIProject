@@ -68,7 +68,7 @@ const UpdateCar = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-gray-500 to-gray-600 text-white">
+    <div className="min-h-screen bg-gradient-to-r from-gray-500 to-gray-600 text-white font-serif">
       <Header isLoggedIn={true} />
       <form onSubmit={handleUpdate} className="bg-white p-8 rounded-xl shadow-lg max-w-lg w-full mx-auto mt-10">
         <h2 className="text-3xl font-extrabold text-gray-900 mb-6">Update Car</h2>
