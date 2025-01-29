@@ -10,7 +10,7 @@ const Home = () => {
       <div className="flex flex-col items-center justify-center h-[80vh] text-center px-6">
         <h2 className="text-4xl font-extrabold drop-shadow-lg">🚘 Welcome to Car Manager</h2>
         <p className="mt-3 text-lg font-medium max-w-2xl">
-          Manage your cars effortlessly with our platform.
+        Easily manage your cars with our user-friendly platform. From adding and updating listings to tracking details, our intuitive interface simplifies everything. Stay organized, upload images, and manage car details effortlessly—all in one place.
         </p>
       </div>
     </div>
