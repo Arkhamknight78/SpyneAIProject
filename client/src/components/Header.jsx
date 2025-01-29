@@ -19,7 +19,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-gradient-to-r from-gray-700 to-gray-900 text-white p-4 flex justify-between items-center shadow-lg">
+    <header className="bg-gradient-to-r from-gray-700 to-blue-900 text-white p-4 flex justify-between items-center shadow-lg">
       <h1 className="text-2xl font-extrabold tracking-wide">
         <Link to="/">Car Management</Link>
       </h1>
@@ -28,13 +28,13 @@ const Header = () => {
           <>
             <Link
               to="/login"
-              className="px-5 py-2 text-lg font-medium bg-white text-gray-800 rounded-md hover:bg-gray-300 transition duration-300"
+              className="px-5 py-2 text-lg font-medium bg-white text-blue-700 rounded-md hover:bg-gray-300 transition duration-300"
             >
               Login
             </Link>
             <Link
               to="/register"
-              className="px-5 py-2 text-lg font-medium bg-white text-gray-800 rounded-md hover:bg-gray-300 transition duration-300"
+              className="px-5 py-2 text-lg font-medium bg-white text-blue-700 rounded-md hover:bg-gray-300 transition duration-300"
             >
               Register
             </Link>
